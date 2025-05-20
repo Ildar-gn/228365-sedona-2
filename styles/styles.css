@@ -1414,7 +1414,6 @@ html:has(.modal[open]) {
 
 .modal[open] {
   padding: 0;
-  margin: auto;
   border: none;
   overflow: visible;
   background-color: transparent;
