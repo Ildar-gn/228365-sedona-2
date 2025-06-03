@@ -360,6 +360,12 @@ body {
   align-items: start;
   flex-shrink: 0;
   margin-bottom: -6px;
+  transition: filter 0.3s ease-in-out;
+}
+
+.header__logo[href]:hover,
+.header__logo[href]:focus-visible {
+  filter: saturate(1.6) brightness(0.9);
 }
 
 .header__navigation {
